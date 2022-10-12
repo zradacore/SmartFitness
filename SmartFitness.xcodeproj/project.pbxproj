@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B145555528F7474200A61987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555428F7474200A61987 /* AppDelegate.swift */; };
+		B145555728F7474200A61987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555628F7474200A61987 /* SceneDelegate.swift */; };
+		B145555928F7474200A61987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555828F7474200A61987 /* ViewController.swift */; };
+		B145555C28F7474200A61987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B145555A28F7474200A61987 /* Main.storyboard */; };
+		B145555F28F7474200A61987 /* SmartFitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B145555D28F7474200A61987 /* SmartFitness.xcdatamodeld */; };
+		B145556128F7474300A61987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B145556028F7474300A61987 /* Assets.xcassets */; };
+		B145556428F7474300A61987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B145556228F7474300A61987 /* LaunchScreen.storyboard */; };
+		B145556F28F7474300A61987 /* SmartFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145556E28F7474300A61987 /* SmartFitnessTests.swift */; };
+		B145557928F7474300A61987 /* SmartFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145557828F7474300A61987 /* SmartFitnessUITests.swift */; };
+		B145557B28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145557A28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B145556B28F7474300A61987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B145554928F7474200A61987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B145555028F7474200A61987;
+			remoteInfo = SmartFitness;
+		};
+		B145557528F7474300A61987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B145554928F7474200A61987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B145555028F7474200A61987;
+			remoteInfo = SmartFitness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B145555128F7474200A61987 /* SmartFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B145555428F7474200A61987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B145555628F7474200A61987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B145555828F7474200A61987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B145555B28F7474200A61987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B145555E28F7474200A61987 /* SmartFitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartFitness.xcdatamodel; sourceTree = "<group>"; };
+		B145556028F7474300A61987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B145556328F7474300A61987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B145556528F7474300A61987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B145556A28F7474300A61987 /* SmartFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B145556E28F7474300A61987 /* SmartFitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFitnessTests.swift; sourceTree = "<group>"; };
+		B145557428F7474300A61987 /* SmartFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B145557828F7474300A61987 /* SmartFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFitnessUITests.swift; sourceTree = "<group>"; };
+		B145557A28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B145554E28F7474200A61987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145556728F7474300A61987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145557128F7474300A61987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B145554828F7474200A61987 = {
+			isa = PBXGroup;
+			children = (
+				B145555328F7474200A61987 /* SmartFitness */,
+				B145556D28F7474300A61987 /* SmartFitnessTests */,
+				B145557728F7474300A61987 /* SmartFitnessUITests */,
+				B145555228F7474200A61987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B145555228F7474200A61987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B145555128F7474200A61987 /* SmartFitness.app */,
+				B145556A28F7474300A61987 /* SmartFitnessTests.xctest */,
+				B145557428F7474300A61987 /* SmartFitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B145555328F7474200A61987 /* SmartFitness */ = {
+			isa = PBXGroup;
+			children = (
+				B145555428F7474200A61987 /* AppDelegate.swift */,
+				B145555628F7474200A61987 /* SceneDelegate.swift */,
+				B145555828F7474200A61987 /* ViewController.swift */,
+				B145555A28F7474200A61987 /* Main.storyboard */,
+				B145556028F7474300A61987 /* Assets.xcassets */,
+				B145556228F7474300A61987 /* LaunchScreen.storyboard */,
+				B145556528F7474300A61987 /* Info.plist */,
+				B145555D28F7474200A61987 /* SmartFitness.xcdatamodeld */,
+			);
+			path = SmartFitness;
+			sourceTree = "<group>";
+		};
+		B145556D28F7474300A61987 /* SmartFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				B145556E28F7474300A61987 /* SmartFitnessTests.swift */,
+			);
+			path = SmartFitnessTests;
+			sourceTree = "<group>";
+		};
+		B145557728F7474300A61987 /* SmartFitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B145557828F7474300A61987 /* SmartFitnessUITests.swift */,
+				B145557A28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift */,
+			);
+			path = SmartFitnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B145555028F7474200A61987 /* SmartFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B145557E28F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitness" */;
+			buildPhases = (
+				B145554D28F7474200A61987 /* Sources */,
+				B145554E28F7474200A61987 /* Frameworks */,
+				B145554F28F7474200A61987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartFitness;
+			productName = SmartFitness;
+			productReference = B145555128F7474200A61987 /* SmartFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B145556928F7474300A61987 /* SmartFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B145558128F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessTests" */;
+			buildPhases = (
+				B145556628F7474300A61987 /* Sources */,
+				B145556728F7474300A61987 /* Frameworks */,
+				B145556828F7474300A61987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B145556C28F7474300A61987 /* PBXTargetDependency */,
+			);
+			name = SmartFitnessTests;
+			productName = SmartFitnessTests;
+			productReference = B145556A28F7474300A61987 /* SmartFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B145557328F7474300A61987 /* SmartFitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B145558428F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessUITests" */;
+			buildPhases = (
+				B145557028F7474300A61987 /* Sources */,
+				B145557128F7474300A61987 /* Frameworks */,
+				B145557228F7474300A61987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B145557628F7474300A61987 /* PBXTargetDependency */,
+			);
+			name = SmartFitnessUITests;
+			productName = SmartFitnessUITests;
+			productReference = B145557428F7474300A61987 /* SmartFitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B145554928F7474200A61987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B145555028F7474200A61987 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B145556928F7474300A61987 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B145555028F7474200A61987;
+					};
+					B145557328F7474300A61987 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B145555028F7474200A61987;
+					};
+				};
+			};
+			buildConfigurationList = B145554C28F7474200A61987 /* Build configuration list for PBXProject "SmartFitness" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B145554828F7474200A61987;
+			productRefGroup = B145555228F7474200A61987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B145555028F7474200A61987 /* SmartFitness */,
+				B145556928F7474300A61987 /* SmartFitnessTests */,
+				B145557328F7474300A61987 /* SmartFitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B145554F28F7474200A61987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145556428F7474300A61987 /* LaunchScreen.storyboard in Resources */,
+				B145556128F7474300A61987 /* Assets.xcassets in Resources */,
+				B145555C28F7474200A61987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145556828F7474300A61987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145557228F7474300A61987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B145554D28F7474200A61987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145555F28F7474200A61987 /* SmartFitness.xcdatamodeld in Sources */,
+				B145555928F7474200A61987 /* ViewController.swift in Sources */,
+				B145555528F7474200A61987 /* AppDelegate.swift in Sources */,
+				B145555728F7474200A61987 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145556628F7474300A61987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145556F28F7474300A61987 /* SmartFitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B145557028F7474300A61987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145557928F7474300A61987 /* SmartFitnessUITests.swift in Sources */,
+				B145557B28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B145556C28F7474300A61987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B145555028F7474200A61987 /* SmartFitness */;
+			targetProxy = B145556B28F7474300A61987 /* PBXContainerItemProxy */;
+		};
+		B145557628F7474300A61987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B145555028F7474200A61987 /* SmartFitness */;
+			targetProxy = B145557528F7474300A61987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B145555A28F7474200A61987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B145555B28F7474200A61987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B145556228F7474300A61987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B145556328F7474300A61987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B145557C28F7474300A61987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B145557D28F7474300A61987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B145557F28F7474300A61987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartFitness/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B145558028F7474300A61987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartFitness/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B145558228F7474300A61987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFitness.app/SmartFitness";
+			};
+			name = Debug;
+		};
+		B145558328F7474300A61987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFitness.app/SmartFitness";
+			};
+			name = Release;
+		};
+		B145558528F7474300A61987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFitness;
+			};
+			name = Debug;
+		};
+		B145558628F7474300A61987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WYRVH429;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zradacore.SmartFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFitness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B145554C28F7474200A61987 /* Build configuration list for PBXProject "SmartFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B145557C28F7474300A61987 /* Debug */,
+				B145557D28F7474300A61987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B145557E28F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B145557F28F7474300A61987 /* Debug */,
+				B145558028F7474300A61987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B145558128F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B145558228F7474300A61987 /* Debug */,
+				B145558328F7474300A61987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B145558428F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B145558528F7474300A61987 /* Debug */,
+				B145558628F7474300A61987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B145555D28F7474200A61987 /* SmartFitness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B145555E28F7474200A61987 /* SmartFitness.xcdatamodel */,
+			);
+			currentVersion = B145555E28F7474200A61987 /* SmartFitness.xcdatamodel */;
+			path = SmartFitness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B145554928F7474200A61987 /* Project object */;
+}
