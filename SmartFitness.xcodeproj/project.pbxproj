@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800E89F83B3AA4570BC31348 /* Pods_SmartFitness_SmartFitnessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932541D697CA57B03D0C792 /* Pods_SmartFitness_SmartFitnessUITests.framework */; };
+		8B06AE57DC4F1616E888BDD6 /* Pods_SmartFitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA4F820CD5A24990F66B477 /* Pods_SmartFitnessTests.framework */; };
 		B145555528F7474200A61987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555428F7474200A61987 /* AppDelegate.swift */; };
 		B145555728F7474200A61987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555628F7474200A61987 /* SceneDelegate.swift */; };
-		B145555928F7474200A61987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555828F7474200A61987 /* ViewController.swift */; };
+		B145555928F7474200A61987 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555828F7474200A61987 /* OnBoardingViewController.swift */; };
 		B145555C28F7474200A61987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B145555A28F7474200A61987 /* Main.storyboard */; };
 		B145555F28F7474200A61987 /* SmartFitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B145555D28F7474200A61987 /* SmartFitness.xcdatamodeld */; };
 		B145556128F7474300A61987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B145556028F7474300A61987 /* Assets.xcassets */; };
@@ -17,6 +19,21 @@
 		B145556F28F7474300A61987 /* SmartFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145556E28F7474300A61987 /* SmartFitnessTests.swift */; };
 		B145557928F7474300A61987 /* SmartFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145557828F7474300A61987 /* SmartFitnessUITests.swift */; };
 		B145557B28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145557A28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift */; };
+		B145558D28F747A500A61987 /* Storybordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145558C28F747A500A61987 /* Storybordable.swift */; };
+		B145559028F7524600A61987 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145558F28F7524600A61987 /* Dynamic.swift */; };
+		B145559428F753F600A61987 /* touchAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = B145559328F753F600A61987 /* touchAnim.json */; };
+		B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859528FDAFB900B1BB12 /* KeychainService.swift */; };
+		B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859A28FDCCF800B1BB12 /* ApiManager.swift */; };
+		B180470628F760220017E389 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B180470828F760220017E389 /* Localizable.strings */; };
+		B180470C28F760F60017E389 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180470B28F760F60017E389 /* Extension+String.swift */; };
+		B180470E28F767970017E389 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180470D28F767970017E389 /* Extension+UIColor.swift */; };
+		B180471028F7739E0017E389 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180470F28F7739E0017E389 /* SignInViewController.swift */; };
+		B18CB0D528F81C7A00CEB8F2 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0D428F81C7A00CEB8F2 /* GenderViewController.swift */; };
+		B18CB0D728F826E300CEB8F2 /* YearsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0D628F826E300CEB8F2 /* YearsViewController.swift */; };
+		B18CB0D928F8319800CEB8F2 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0D828F8319800CEB8F2 /* WeightViewController.swift */; };
+		B18CB0DB28F83C8C00CEB8F2 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0DA28F83C8C00CEB8F2 /* HeightViewController.swift */; };
+		B1DD824A28F778F800EB5ACB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD824928F778F800EB5ACB /* SignUpViewController.swift */; };
+		F55D0DB6C6EF454B2D4242FB /* Pods_SmartFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDF63D79A1F39AD31358B45 /* Pods_SmartFitness.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +54,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0303932F9D0347A9B2D6F6F7 /* Pods-SmartFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness.release.xcconfig"; path = "Target Support Files/Pods-SmartFitness/Pods-SmartFitness.release.xcconfig"; sourceTree = "<group>"; };
+		0A7DAEE152DF1F5ABD22A383 /* Pods-SmartFitness-SmartFitnessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness-SmartFitnessUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3932541D697CA57B03D0C792 /* Pods_SmartFitness_SmartFitnessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFitness_SmartFitnessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF63D79A1F39AD31358B45 /* Pods_SmartFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE03C140A386C8F54BF4134 /* Pods-SmartFitnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitnessTests.release.xcconfig"; path = "Target Support Files/Pods-SmartFitnessTests/Pods-SmartFitnessTests.release.xcconfig"; sourceTree = "<group>"; };
+		968A9A9367C91C88CDE345D5 /* Pods-SmartFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness.debug.xcconfig"; path = "Target Support Files/Pods-SmartFitness/Pods-SmartFitness.debug.xcconfig"; sourceTree = "<group>"; };
+		A195703A11176BA954D70B5D /* Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B145555128F7474200A61987 /* SmartFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B145555428F7474200A61987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B145555628F7474200A61987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B145555828F7474200A61987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B145555828F7474200A61987 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		B145555B28F7474200A61987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B145555E28F7474200A61987 /* SmartFitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartFitness.xcdatamodel; sourceTree = "<group>"; };
 		B145556028F7474300A61987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +75,26 @@
 		B145557428F7474300A61987 /* SmartFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B145557828F7474300A61987 /* SmartFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFitnessUITests.swift; sourceTree = "<group>"; };
 		B145557A28F7474300A61987 /* SmartFitnessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFitnessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B145558C28F747A500A61987 /* Storybordable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storybordable.swift; sourceTree = "<group>"; };
+		B145558F28F7524600A61987 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		B145559328F753F600A61987 /* touchAnim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = touchAnim.json; sourceTree = "<group>"; };
+		B145559528F75F2000A61987 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		B145559628F75F2000A61987 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B160859528FDAFB900B1BB12 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		B160859A28FDCCF800B1BB12 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B180470728F760220017E389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B180470928F760240017E389 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B180470B28F760F60017E389 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		B180470D28F767970017E389 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		B180470F28F7739E0017E389 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B18CB0D428F81C7A00CEB8F2 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		B18CB0D628F826E300CEB8F2 /* YearsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsViewController.swift; sourceTree = "<group>"; };
+		B18CB0D828F8319800CEB8F2 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		B18CB0DA28F83C8C00CEB8F2 /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		B1DD824928F778F800EB5ACB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B1DD824C28F77B8C00EB5ACB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CCA4F820CD5A24990F66B477 /* Pods_SmartFitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB14B720D72CD0F851FCA8F9 /* Pods-SmartFitnessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitnessTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartFitnessTests/Pods-SmartFitnessTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55D0DB6C6EF454B2D4242FB /* Pods_SmartFitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B06AE57DC4F1616E888BDD6 /* Pods_SmartFitnessTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +118,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800E89F83B3AA4570BC31348 /* Pods_SmartFitness_SmartFitnessUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215780EBD0D447B7D5C1C165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF63D79A1F39AD31358B45 /* Pods_SmartFitness.framework */,
+				3932541D697CA57B03D0C792 /* Pods_SmartFitness_SmartFitnessUITests.framework */,
+				CCA4F820CD5A24990F66B477 /* Pods_SmartFitnessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B145554828F7474200A61987 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +142,8 @@
 				B145556D28F7474300A61987 /* SmartFitnessTests */,
 				B145557728F7474300A61987 /* SmartFitnessUITests */,
 				B145555228F7474200A61987 /* Products */,
+				F3AD2FBB3982A3BA458E5B9E /* Pods */,
+				215780EBD0D447B7D5C1C165 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +160,16 @@
 		B145555328F7474200A61987 /* SmartFitness */ = {
 			isa = PBXGroup;
 			children = (
+				B160859C28FDEB5800B1BB12 /* ViewControllers */,
+				B160859728FDCC1A00B1BB12 /* API */,
+				B145559128F753E400A61987 /* Resource */,
+				B180470A28F760E90017E389 /* Extensions */,
+				B160859428FDAFA700B1BB12 /* Services */,
+				B145558828F7476600A61987 /* Models */,
+				B145558728F7475D00A61987 /* ViewModels */,
+				B145558928F7478700A61987 /* Views */,
 				B145555428F7474200A61987 /* AppDelegate.swift */,
 				B145555628F7474200A61987 /* SceneDelegate.swift */,
-				B145555828F7474200A61987 /* ViewController.swift */,
-				B145555A28F7474200A61987 /* Main.storyboard */,
-				B145556028F7474300A61987 /* Assets.xcassets */,
-				B145556228F7474300A61987 /* LaunchScreen.storyboard */,
 				B145556528F7474300A61987 /* Info.plist */,
 				B145555D28F7474200A61987 /* SmartFitness.xcdatamodeld */,
 			);
@@ -130,6 +193,149 @@
 			path = SmartFitnessUITests;
 			sourceTree = "<group>";
 		};
+		B145558728F7475D00A61987 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B145558E28F7523F00A61987 /* Bindings */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B145558828F7476600A61987 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B145558928F7478700A61987 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1DD824928F778F800EB5ACB /* SignUpViewController.swift */,
+				B145555828F7474200A61987 /* OnBoardingViewController.swift */,
+				B160859D28FDEB6E00B1BB12 /* UserCharacteristicController */,
+				B180470F28F7739E0017E389 /* SignInViewController.swift */,
+				B145558B28F7479500A61987 /* Protocols */,
+				B145558A28F7478D00A61987 /* Stroyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B145558A28F7478D00A61987 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B145556028F7474300A61987 /* Assets.xcassets */,
+				B145555A28F7474200A61987 /* Main.storyboard */,
+				B145556228F7474300A61987 /* LaunchScreen.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		B145558B28F7479500A61987 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B145558C28F747A500A61987 /* Storybordable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B145558E28F7523F00A61987 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B145558F28F7524600A61987 /* Dynamic.swift */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
+		B145559128F753E400A61987 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B180470828F760220017E389 /* Localizable.strings */,
+				B145559228F753ED00A61987 /* AnimJSON */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B145559228F753ED00A61987 /* AnimJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B145559328F753F600A61987 /* touchAnim.json */,
+			);
+			path = AnimJSON;
+			sourceTree = "<group>";
+		};
+		B160859428FDAFA700B1BB12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B160859528FDAFB900B1BB12 /* KeychainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B160859728FDCC1A00B1BB12 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B160859928FDCCDD00B1BB12 /* Services */,
+				B160859828FDCC2000B1BB12 /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B160859828FDCC2000B1BB12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B160859928FDCCDD00B1BB12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B160859A28FDCCF800B1BB12 /* ApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B160859C28FDEB5800B1BB12 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B160859D28FDEB6E00B1BB12 /* UserCharacteristicController */ = {
+			isa = PBXGroup;
+			children = (
+				B18CB0D428F81C7A00CEB8F2 /* GenderViewController.swift */,
+				B18CB0D828F8319800CEB8F2 /* WeightViewController.swift */,
+				B18CB0D628F826E300CEB8F2 /* YearsViewController.swift */,
+				B18CB0DA28F83C8C00CEB8F2 /* HeightViewController.swift */,
+			);
+			path = UserCharacteristicController;
+			sourceTree = "<group>";
+		};
+		B180470A28F760E90017E389 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B180470B28F760F60017E389 /* Extension+String.swift */,
+				B180470D28F767970017E389 /* Extension+UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3AD2FBB3982A3BA458E5B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968A9A9367C91C88CDE345D5 /* Pods-SmartFitness.debug.xcconfig */,
+				0303932F9D0347A9B2D6F6F7 /* Pods-SmartFitness.release.xcconfig */,
+				A195703A11176BA954D70B5D /* Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig */,
+				0A7DAEE152DF1F5ABD22A383 /* Pods-SmartFitness-SmartFitnessUITests.release.xcconfig */,
+				DB14B720D72CD0F851FCA8F9 /* Pods-SmartFitnessTests.debug.xcconfig */,
+				6EE03C140A386C8F54BF4134 /* Pods-SmartFitnessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B145557E28F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitness" */;
 			buildPhases = (
+				25404977F94C36599ECE84BC /* [CP] Check Pods Manifest.lock */,
 				B145554D28F7474200A61987 /* Sources */,
 				B145554E28F7474200A61987 /* Frameworks */,
 				B145554F28F7474200A61987 /* Resources */,
+				CF86E5D995B6219F50E31CD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B145558128F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessTests" */;
 			buildPhases = (
+				112A860640136D9A6D7A757F /* [CP] Check Pods Manifest.lock */,
 				B145556628F7474300A61987 /* Sources */,
 				B145556728F7474300A61987 /* Frameworks */,
 				B145556828F7474300A61987 /* Resources */,
@@ -172,9 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B145558428F7474300A61987 /* Build configuration list for PBXNativeTarget "SmartFitnessUITests" */;
 			buildPhases = (
+				98501A6766248E223142D2D9 /* [CP] Check Pods Manifest.lock */,
 				B145557028F7474300A61987 /* Sources */,
 				B145557128F7474300A61987 /* Frameworks */,
 				B145557228F7474300A61987 /* Resources */,
+				08A840B8E9F058A6F10EA22D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +427,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = B145554828F7474200A61987;
 			productRefGroup = B145555228F7474200A61987 /* Products */;
@@ -234,9 +446,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B180470628F760220017E389 /* Localizable.strings in Resources */,
 				B145556428F7474300A61987 /* LaunchScreen.storyboard in Resources */,
 				B145556128F7474300A61987 /* Assets.xcassets in Resources */,
 				B145555C28F7474200A61987 /* Main.storyboard in Resources */,
+				B145559428F753F600A61987 /* touchAnim.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +470,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08A840B8E9F058A6F10EA22D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112A860640136D9A6D7A757F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartFitnessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25404977F94C36599ECE84BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartFitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98501A6766248E223142D2D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartFitness-SmartFitnessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF86E5D995B6219F50E31CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFitness/Pods-SmartFitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFitness/Pods-SmartFitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartFitness/Pods-SmartFitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B145554D28F7474200A61987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */,
+				B145558D28F747A500A61987 /* Storybordable.swift in Sources */,
+				B180470C28F760F60017E389 /* Extension+String.swift in Sources */,
+				B145559028F7524600A61987 /* Dynamic.swift in Sources */,
 				B145555F28F7474200A61987 /* SmartFitness.xcdatamodeld in Sources */,
-				B145555928F7474200A61987 /* ViewController.swift in Sources */,
+				B1DD824A28F778F800EB5ACB /* SignUpViewController.swift in Sources */,
+				B18CB0DB28F83C8C00CEB8F2 /* HeightViewController.swift in Sources */,
+				B145555928F7474200A61987 /* OnBoardingViewController.swift in Sources */,
+				B18CB0D528F81C7A00CEB8F2 /* GenderViewController.swift in Sources */,
+				B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */,
+				B18CB0D728F826E300CEB8F2 /* YearsViewController.swift in Sources */,
+				B180471028F7739E0017E389 /* SignInViewController.swift in Sources */,
 				B145555528F7474200A61987 /* AppDelegate.swift in Sources */,
 				B145555728F7474200A61987 /* SceneDelegate.swift in Sources */,
+				B18CB0D928F8319800CEB8F2 /* WeightViewController.swift in Sources */,
+				B180470E28F767970017E389 /* Extension+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +634,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				B145555B28F7474200A61987 /* Base */,
+				B145559528F75F2000A61987 /* ru */,
+				B1DD824C28F77B8C00EB5ACB /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,8 +644,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				B145556328F7474300A61987 /* Base */,
+				B145559628F75F2000A61987 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B180470828F760220017E389 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B180470728F760220017E389 /* en */,
+				B180470928F760240017E389 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -385,6 +727,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -438,6 +781,7 @@
 		};
 		B145557F28F7474300A61987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968A9A9367C91C88CDE345D5 /* Pods-SmartFitness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +810,7 @@
 		};
 		B145558028F7474300A61987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0303932F9D0347A9B2D6F6F7 /* Pods-SmartFitness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +839,7 @@
 		};
 		B145558228F7474300A61987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB14B720D72CD0F851FCA8F9 /* Pods-SmartFitnessTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +865,7 @@
 		};
 		B145558328F7474300A61987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE03C140A386C8F54BF4134 /* Pods-SmartFitnessTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +891,7 @@
 		};
 		B145558528F7474300A61987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A195703A11176BA954D70B5D /* Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +915,7 @@
 		};
 		B145558628F7474300A61987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7DAEE152DF1F5ABD22A383 /* Pods-SmartFitness-SmartFitnessUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

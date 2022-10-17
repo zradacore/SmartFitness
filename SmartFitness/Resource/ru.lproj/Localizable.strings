@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  SmartFitness
+
+  Created by Владимир Никитин on 12.10.2022.
+  
+*/
+"Hello" = "Привет";
+"Get started" = "Начать";
+"There is no instant way to a healthy life" = "Мгновенного пути к здоровой жизни не существует";
+"Wherever you are health is number one" = "Где бы вы ни находились здоровье - это номер один";
+"Don't have an account? Sign Up" = "Еще нет аккаунта? Регистрация";
+"Sign In" = "Вход";
+"Email" = "Почта";
+"Password" = "Пароль";
+"Sign Up" = "Регистрация";
+"Already have an account? Sign In" = "Уже есть аккаунт? Войти";
+"Full Name" = "Имя";
+"Repeat password" = "Повторите пароль";
+"Continue" = "Продолжить";
+"Male" = "Мужчина";
+"Female" = "Женщина";
+"Next" = "Дальше";
+"TELL US ABOUT YOURSELF" = "РАССКАЖИТЕ О СЕБЕ";
+"TO GIVE YOU A BETTER EXPERIENCE WE NEED TO KNOW YOUR GENDER" = "ЧТОБЫ ПРЕДОСТАВИТЬ ВАМ ЛУЧШИЙ ОПЫТ, НАМ НУЖНО ЗНАТЬ ВАШ ПОЛ";
+"Any ..." = "Другое ...";
