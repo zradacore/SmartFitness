@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		800E89F83B3AA4570BC31348 /* Pods_SmartFitness_SmartFitnessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3932541D697CA57B03D0C792 /* Pods_SmartFitness_SmartFitnessUITests.framework */; };
 		8B06AE57DC4F1616E888BDD6 /* Pods_SmartFitnessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA4F820CD5A24990F66B477 /* Pods_SmartFitnessTests.framework */; };
+		B10E83F028FF39AD00AD4BAE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83EF28FF39AD00AD4BAE /* HomeViewController.swift */; };
+		B10E83F428FF3D5B00AD4BAE /* Extension + NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83F328FF3D5B00AD4BAE /* Extension + NavigationBar.swift */; };
+		B10E83F628FF45BF00AD4BAE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83F528FF45BF00AD4BAE /* HomeViewModel.swift */; };
+		B10E83F828FF45F800AD4BAE /* WorkoutPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83F728FF45F800AD4BAE /* WorkoutPlanModel.swift */; };
+		B10E83FA28FF4B4600AD4BAE /* TodayPlanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83F928FF4B4600AD4BAE /* TodayPlanCollectionViewCell.swift */; };
+		B10E83FC28FF540700AD4BAE /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83FB28FF540700AD4BAE /* CategoriesViewController.swift */; };
+		B10E83FF28FF573100AD4BAE /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E83FE28FF573100AD4BAE /* CategoriesTableViewCell.swift */; };
+		B10E840128FF59A700AD4BAE /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10E840028FF59A700AD4BAE /* CategoriesViewModel.swift */; };
 		B145555528F7474200A61987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555428F7474200A61987 /* AppDelegate.swift */; };
 		B145555728F7474200A61987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555628F7474200A61987 /* SceneDelegate.swift */; };
 		B145555928F7474200A61987 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145555828F7474200A61987 /* OnBoardingViewController.swift */; };
@@ -22,6 +30,7 @@
 		B145558D28F747A500A61987 /* Storybordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145558C28F747A500A61987 /* Storybordable.swift */; };
 		B145559028F7524600A61987 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B145558F28F7524600A61987 /* Dynamic.swift */; };
 		B145559428F753F600A61987 /* touchAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = B145559328F753F600A61987 /* touchAnim.json */; };
+		B147639E29004BFA0011FD0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147639D29004BFA0011FD0B /* ProfileViewController.swift */; };
 		B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859528FDAFB900B1BB12 /* KeychainService.swift */; };
 		B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859A28FDCCF800B1BB12 /* ApiManager.swift */; };
 		B180470628F760220017E389 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B180470828F760220017E389 /* Localizable.strings */; };
@@ -32,6 +41,16 @@
 		B18CB0D728F826E300CEB8F2 /* YearsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0D628F826E300CEB8F2 /* YearsViewController.swift */; };
 		B18CB0D928F8319800CEB8F2 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0D828F8319800CEB8F2 /* WeightViewController.swift */; };
 		B18CB0DB28F83C8C00CEB8F2 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB0DA28F83C8C00CEB8F2 /* HeightViewController.swift */; };
+		B19F13BD2905870400CBF369 /* plankAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = B19F13BC2905870400CBF369 /* plankAnim.json */; };
+		B19F13BF290591A700CBF369 /* PlankaModel3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B19F13BE290591A700CBF369 /* PlankaModel3.mlmodel */; };
+		B1A2539F290036CF00D6A405 /* MealDetectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2539E290036CF00D6A405 /* MealDetectViewModel.swift */; };
+		B1A253A12900393200D6A405 /* MealDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A253A02900393200D6A405 /* MealDetectorViewController.swift */; };
+		B1AC77B129040FCE0014C573 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC77B029040FCE0014C573 /* VideoCapture.swift */; };
+		B1AC77B3290413DD0014C573 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC77B2290413DD0014C573 /* TrainingViewController.swift */; };
+		B1AC77B5290419CB0014C573 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC77B4290419CB0014C573 /* Predictor.swift */; };
+		B1AC77B829041C7B0014C573 /* PredictorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC77B729041C7B0014C573 /* PredictorDelegate.swift */; };
+		B1BD100128FF5D5B009B77A9 /* Extension + NavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BD100028FF5D5B009B77A9 /* Extension + NavBackButton.swift */; };
+		B1D9836029002932003E3150 /* MealPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9835F29002932003E3150 /* MealPlannerViewController.swift */; };
 		B1DD824A28F778F800EB5ACB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DD824928F778F800EB5ACB /* SignUpViewController.swift */; };
 		F55D0DB6C6EF454B2D4242FB /* Pods_SmartFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDF63D79A1F39AD31358B45 /* Pods_SmartFitness.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +80,14 @@
 		6EE03C140A386C8F54BF4134 /* Pods-SmartFitnessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitnessTests.release.xcconfig"; path = "Target Support Files/Pods-SmartFitnessTests/Pods-SmartFitnessTests.release.xcconfig"; sourceTree = "<group>"; };
 		968A9A9367C91C88CDE345D5 /* Pods-SmartFitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness.debug.xcconfig"; path = "Target Support Files/Pods-SmartFitness/Pods-SmartFitness.debug.xcconfig"; sourceTree = "<group>"; };
 		A195703A11176BA954D70B5D /* Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartFitness-SmartFitnessUITests/Pods-SmartFitness-SmartFitnessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B10E83EF28FF39AD00AD4BAE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B10E83F328FF3D5B00AD4BAE /* Extension + NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + NavigationBar.swift"; sourceTree = "<group>"; };
+		B10E83F528FF45BF00AD4BAE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B10E83F728FF45F800AD4BAE /* WorkoutPlanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanModel.swift; sourceTree = "<group>"; };
+		B10E83F928FF4B4600AD4BAE /* TodayPlanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayPlanCollectionViewCell.swift; sourceTree = "<group>"; };
+		B10E83FB28FF540700AD4BAE /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		B10E83FE28FF573100AD4BAE /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		B10E840028FF59A700AD4BAE /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 		B145555128F7474200A61987 /* SmartFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B145555428F7474200A61987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B145555628F7474200A61987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +107,7 @@
 		B145559328F753F600A61987 /* touchAnim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = touchAnim.json; sourceTree = "<group>"; };
 		B145559528F75F2000A61987 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		B145559628F75F2000A61987 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B147639D29004BFA0011FD0B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B160859528FDAFB900B1BB12 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		B160859A28FDCCF800B1BB12 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		B180470728F760220017E389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -91,6 +119,16 @@
 		B18CB0D628F826E300CEB8F2 /* YearsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearsViewController.swift; sourceTree = "<group>"; };
 		B18CB0D828F8319800CEB8F2 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
 		B18CB0DA28F83C8C00CEB8F2 /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		B19F13BC2905870400CBF369 /* plankAnim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plankAnim.json; sourceTree = "<group>"; };
+		B19F13BE290591A700CBF369 /* PlankaModel3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PlankaModel3.mlmodel; sourceTree = "<group>"; };
+		B1A2539E290036CF00D6A405 /* MealDetectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetectViewModel.swift; sourceTree = "<group>"; };
+		B1A253A02900393200D6A405 /* MealDetectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetectorViewController.swift; sourceTree = "<group>"; };
+		B1AC77B029040FCE0014C573 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		B1AC77B2290413DD0014C573 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		B1AC77B4290419CB0014C573 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		B1AC77B729041C7B0014C573 /* PredictorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictorDelegate.swift; sourceTree = "<group>"; };
+		B1BD100028FF5D5B009B77A9 /* Extension + NavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + NavBackButton.swift"; sourceTree = "<group>"; };
+		B1D9835F29002932003E3150 /* MealPlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerViewController.swift; sourceTree = "<group>"; };
 		B1DD824928F778F800EB5ACB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B1DD824C28F77B8C00EB5ACB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		CCA4F820CD5A24990F66B477 /* Pods_SmartFitnessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFitnessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +173,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B10E83ED28FF396600AD4BAE /* AuthControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1DD824928F778F800EB5ACB /* SignUpViewController.swift */,
+				B145555828F7474200A61987 /* OnBoardingViewController.swift */,
+				B180470F28F7739E0017E389 /* SignInViewController.swift */,
+			);
+			path = AuthControllers;
+			sourceTree = "<group>";
+		};
+		B10E83EE28FF399900AD4BAE /* HomeControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B10E83FD28FF571500AD4BAE /* Cells */,
+				B10E83EF28FF39AD00AD4BAE /* HomeViewController.swift */,
+				B10E83FB28FF540700AD4BAE /* CategoriesViewController.swift */,
+			);
+			path = HomeControllers;
+			sourceTree = "<group>";
+		};
+		B10E83FD28FF571500AD4BAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B10E83F928FF4B4600AD4BAE /* TodayPlanCollectionViewCell.swift */,
+				B10E83FE28FF573100AD4BAE /* CategoriesTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		B145554828F7474200A61987 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +227,9 @@
 		B145555328F7474200A61987 /* SmartFitness */ = {
 			isa = PBXGroup;
 			children = (
+				B19F13BC2905870400CBF369 /* plankAnim.json */,
+				B19F13BE290591A700CBF369 /* PlankaModel3.mlmodel */,
+				B1AC77B629041C710014C573 /* Protocols */,
 				B160859C28FDEB5800B1BB12 /* ViewControllers */,
 				B160859728FDCC1A00B1BB12 /* API */,
 				B145559128F753E400A61987 /* Resource */,
@@ -197,6 +267,9 @@
 			isa = PBXGroup;
 			children = (
 				B145558E28F7523F00A61987 /* Bindings */,
+				B10E83F528FF45BF00AD4BAE /* HomeViewModel.swift */,
+				B10E840028FF59A700AD4BAE /* CategoriesViewModel.swift */,
+				B1A2539E290036CF00D6A405 /* MealDetectViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -204,6 +277,7 @@
 		B145558828F7476600A61987 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B10E83F728FF45F800AD4BAE /* WorkoutPlanModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,11 +285,6 @@
 		B145558928F7478700A61987 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B1DD824928F778F800EB5ACB /* SignUpViewController.swift */,
-				B145555828F7474200A61987 /* OnBoardingViewController.swift */,
-				B160859D28FDEB6E00B1BB12 /* UserCharacteristicController */,
-				B180470F28F7739E0017E389 /* SignInViewController.swift */,
-				B145558B28F7479500A61987 /* Protocols */,
 				B145558A28F7478D00A61987 /* Stroyboards */,
 			);
 			path = Views;
@@ -229,14 +298,6 @@
 				B145556228F7474300A61987 /* LaunchScreen.storyboard */,
 			);
 			path = Stroyboards;
-			sourceTree = "<group>";
-		};
-		B145558B28F7479500A61987 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				B145558C28F747A500A61987 /* Storybordable.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B145558E28F7523F00A61987 /* Bindings */ = {
@@ -264,10 +325,20 @@
 			path = AnimJSON;
 			sourceTree = "<group>";
 		};
+		B147639C29004BE50011FD0B /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B147639D29004BFA0011FD0B /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
 		B160859428FDAFA700B1BB12 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				B160859528FDAFB900B1BB12 /* KeychainService.swift */,
+				B1AC77B029040FCE0014C573 /* VideoCapture.swift */,
+				B1AC77B4290419CB0014C573 /* Predictor.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -299,6 +370,12 @@
 		B160859C28FDEB5800B1BB12 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B147639C29004BE50011FD0B /* ProfileViewController */,
+				B1D9835E29002919003E3150 /* MealPlannerController */,
+				B160859D28FDEB6E00B1BB12 /* UserCharacteristicController */,
+				B10E83ED28FF396600AD4BAE /* AuthControllers */,
+				B10E83EE28FF399900AD4BAE /* HomeControllers */,
+				B1AC77B2290413DD0014C573 /* TrainingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -319,8 +396,28 @@
 			children = (
 				B180470B28F760F60017E389 /* Extension+String.swift */,
 				B180470D28F767970017E389 /* Extension+UIColor.swift */,
+				B10E83F328FF3D5B00AD4BAE /* Extension + NavigationBar.swift */,
+				B1BD100028FF5D5B009B77A9 /* Extension + NavBackButton.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1AC77B629041C710014C573 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC77B729041C7B0014C573 /* PredictorDelegate.swift */,
+				B145558C28F747A500A61987 /* Storybordable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B1D9835E29002919003E3150 /* MealPlannerController */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9835F29002932003E3150 /* MealPlannerViewController.swift */,
+				B1A253A02900393200D6A405 /* MealDetectorViewController.swift */,
+			);
+			path = MealPlannerController;
 			sourceTree = "<group>";
 		};
 		F3AD2FBB3982A3BA458E5B9E /* Pods */ = {
@@ -447,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B180470628F760220017E389 /* Localizable.strings in Resources */,
+				B19F13BD2905870400CBF369 /* plankAnim.json in Resources */,
 				B145556428F7474300A61987 /* LaunchScreen.storyboard in Resources */,
 				B145556128F7474300A61987 /* Assets.xcassets in Resources */,
 				B145555C28F7474200A61987 /* Main.storyboard in Resources */,
@@ -578,21 +676,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19F13BF290591A700CBF369 /* PlankaModel3.mlmodel in Sources */,
+				B1AC77B3290413DD0014C573 /* TrainingViewController.swift in Sources */,
+				B1A2539F290036CF00D6A405 /* MealDetectViewModel.swift in Sources */,
+				B1BD100128FF5D5B009B77A9 /* Extension + NavBackButton.swift in Sources */,
+				B10E83F628FF45BF00AD4BAE /* HomeViewModel.swift in Sources */,
 				B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */,
 				B145558D28F747A500A61987 /* Storybordable.swift in Sources */,
 				B180470C28F760F60017E389 /* Extension+String.swift in Sources */,
+				B10E83F028FF39AD00AD4BAE /* HomeViewController.swift in Sources */,
 				B145559028F7524600A61987 /* Dynamic.swift in Sources */,
 				B145555F28F7474200A61987 /* SmartFitness.xcdatamodeld in Sources */,
+				B1AC77B829041C7B0014C573 /* PredictorDelegate.swift in Sources */,
+				B1D9836029002932003E3150 /* MealPlannerViewController.swift in Sources */,
+				B1A253A12900393200D6A405 /* MealDetectorViewController.swift in Sources */,
 				B1DD824A28F778F800EB5ACB /* SignUpViewController.swift in Sources */,
 				B18CB0DB28F83C8C00CEB8F2 /* HeightViewController.swift in Sources */,
+				B147639E29004BFA0011FD0B /* ProfileViewController.swift in Sources */,
 				B145555928F7474200A61987 /* OnBoardingViewController.swift in Sources */,
+				B10E83FF28FF573100AD4BAE /* CategoriesTableViewCell.swift in Sources */,
+				B1AC77B129040FCE0014C573 /* VideoCapture.swift in Sources */,
+				B10E83F428FF3D5B00AD4BAE /* Extension + NavigationBar.swift in Sources */,
 				B18CB0D528F81C7A00CEB8F2 /* GenderViewController.swift in Sources */,
+				B10E83FC28FF540700AD4BAE /* CategoriesViewController.swift in Sources */,
 				B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */,
+				B1AC77B5290419CB0014C573 /* Predictor.swift in Sources */,
 				B18CB0D728F826E300CEB8F2 /* YearsViewController.swift in Sources */,
+				B10E83FA28FF4B4600AD4BAE /* TodayPlanCollectionViewCell.swift in Sources */,
 				B180471028F7739E0017E389 /* SignInViewController.swift in Sources */,
 				B145555528F7474200A61987 /* AppDelegate.swift in Sources */,
+				B10E83F828FF45F800AD4BAE /* WorkoutPlanModel.swift in Sources */,
 				B145555728F7474200A61987 /* SceneDelegate.swift in Sources */,
 				B18CB0D928F8319800CEB8F2 /* WeightViewController.swift in Sources */,
+				B10E840128FF59A700AD4BAE /* CategoriesViewModel.swift in Sources */,
 				B180470E28F767970017E389 /* Extension+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,6 +834,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -772,7 +889,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_SWIFT_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -786,10 +905,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25WYRVH429;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartFitness/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Для умных тренировок";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -815,10 +936,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25WYRVH429;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SmartFitness/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Для умных тренировок";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
