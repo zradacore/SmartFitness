@@ -35,9 +35,7 @@ class VideoCapture: NSObject{
     }
         self.videoOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoDispatchQueue"))
         
-        
     }
-    
 }
 
 extension VideoCapture : AVCaptureVideoDataOutputSampleBufferDelegate{

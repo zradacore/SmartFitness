@@ -33,6 +33,9 @@
 		B147639E29004BFA0011FD0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B147639D29004BFA0011FD0B /* ProfileViewController.swift */; };
 		B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859528FDAFB900B1BB12 /* KeychainService.swift */; };
 		B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160859A28FDCCF800B1BB12 /* ApiManager.swift */; };
+		B17D9D972906B8E900F8FBD6 /* MealHeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D9D962906B8E800F8FBD6 /* MealHeaderCollectionView.swift */; };
+		B17D9D9A2906BA3300F8FBD6 /* MealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D9D992906BA3300F8FBD6 /* MealCollectionViewCell.swift */; };
+		B17D9D9C2907007400F8FBD6 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17D9D9B2907007400F8FBD6 /* AddMealViewController.swift */; };
 		B180470628F760220017E389 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B180470828F760220017E389 /* Localizable.strings */; };
 		B180470C28F760F60017E389 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180470B28F760F60017E389 /* Extension+String.swift */; };
 		B180470E28F767970017E389 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180470D28F767970017E389 /* Extension+UIColor.swift */; };
@@ -110,6 +113,9 @@
 		B147639D29004BFA0011FD0B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B160859528FDAFB900B1BB12 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		B160859A28FDCCF800B1BB12 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		B17D9D962906B8E800F8FBD6 /* MealHeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealHeaderCollectionView.swift; sourceTree = "<group>"; };
+		B17D9D992906BA3300F8FBD6 /* MealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCollectionViewCell.swift; sourceTree = "<group>"; };
+		B17D9D9B2907007400F8FBD6 /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
 		B180470728F760220017E389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B180470928F760240017E389 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B180470B28F760F60017E389 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
@@ -227,7 +233,6 @@
 		B145555328F7474200A61987 /* SmartFitness */ = {
 			isa = PBXGroup;
 			children = (
-				B19F13BC2905870400CBF369 /* plankAnim.json */,
 				B19F13BE290591A700CBF369 /* PlankaModel3.mlmodel */,
 				B1AC77B629041C710014C573 /* Protocols */,
 				B160859C28FDEB5800B1BB12 /* ViewControllers */,
@@ -286,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				B145558A28F7478D00A61987 /* Stroyboards */,
+				B17D9D962906B8E800F8FBD6 /* MealHeaderCollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 		B145559228F753ED00A61987 /* AnimJSON */ = {
 			isa = PBXGroup;
 			children = (
+				B19F13BC2905870400CBF369 /* plankAnim.json */,
 				B145559328F753F600A61987 /* touchAnim.json */,
 			);
 			path = AnimJSON;
@@ -391,6 +398,14 @@
 			path = UserCharacteristicController;
 			sourceTree = "<group>";
 		};
+		B17D9D982906BA1A00F8FBD6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B17D9D992906BA3300F8FBD6 /* MealCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		B180470A28F760E90017E389 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,8 +429,10 @@
 		B1D9835E29002919003E3150 /* MealPlannerController */ = {
 			isa = PBXGroup;
 			children = (
+				B17D9D982906BA1A00F8FBD6 /* Cells */,
 				B1D9835F29002932003E3150 /* MealPlannerViewController.swift */,
 				B1A253A02900393200D6A405 /* MealDetectorViewController.swift */,
+				B17D9D9B2907007400F8FBD6 /* AddMealViewController.swift */,
 			);
 			path = MealPlannerController;
 			sourceTree = "<group>";
@@ -677,9 +694,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19F13BF290591A700CBF369 /* PlankaModel3.mlmodel in Sources */,
+				B17D9D972906B8E900F8FBD6 /* MealHeaderCollectionView.swift in Sources */,
 				B1AC77B3290413DD0014C573 /* TrainingViewController.swift in Sources */,
 				B1A2539F290036CF00D6A405 /* MealDetectViewModel.swift in Sources */,
 				B1BD100128FF5D5B009B77A9 /* Extension + NavBackButton.swift in Sources */,
+				B17D9D9A2906BA3300F8FBD6 /* MealCollectionViewCell.swift in Sources */,
 				B10E83F628FF45BF00AD4BAE /* HomeViewModel.swift in Sources */,
 				B160859B28FDCCF800B1BB12 /* ApiManager.swift in Sources */,
 				B145558D28F747A500A61987 /* Storybordable.swift in Sources */,
@@ -699,6 +718,7 @@
 				B10E83F428FF3D5B00AD4BAE /* Extension + NavigationBar.swift in Sources */,
 				B18CB0D528F81C7A00CEB8F2 /* GenderViewController.swift in Sources */,
 				B10E83FC28FF540700AD4BAE /* CategoriesViewController.swift in Sources */,
+				B17D9D9C2907007400F8FBD6 /* AddMealViewController.swift in Sources */,
 				B160859628FDAFB900B1BB12 /* KeychainService.swift in Sources */,
 				B1AC77B5290419CB0014C573 /* Predictor.swift in Sources */,
 				B18CB0D728F826E300CEB8F2 /* YearsViewController.swift in Sources */,
